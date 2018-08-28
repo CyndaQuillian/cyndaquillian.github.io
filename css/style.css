@@ -193,14 +193,14 @@ ul {
 		  }
 		}
 
-/****  2 - MENU ****/ 
+/****  2 - MENU ****/
 
 .menu {
 	position: fixed;
 	/*
 	left: -160px;
 	*/
-	Left: 0px;
+	Left: -160px;
 	padding-top: 30px;
 	width: 160px;
 	height: 100%;
