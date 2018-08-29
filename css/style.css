@@ -1,5 +1,5 @@
 /*************************
- * 
+ *
  *
  * 1 - LOADER
  * 2 - MENU
@@ -153,7 +153,7 @@ ul {
 		  height: 100%;
 		  width: 6px;
 		  display: inline-block;
-		  
+
 		  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
 		  animation: sk-stretchdelay 1.2s infinite ease-in-out;
 		}
@@ -179,15 +179,15 @@ ul {
 		}
 
 		@-webkit-keyframes sk-stretchdelay {
-		  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+		  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
 		  20% { -webkit-transform: scaleY(1.0) }
 		}
 
 		@keyframes sk-stretchdelay {
-		  0%, 40%, 100% { 
+		  0%, 40%, 100% {
 		    transform: scaleY(0.4);
 		    -webkit-transform: scaleY(0.4);
-		  }  20% { 
+		  }  20% {
 		    transform: scaleY(1.0);
 		    -webkit-transform: scaleY(1.0);
 		  }
@@ -197,7 +197,10 @@ ul {
 
 .menu {
 	position: fixed;
+	/*
 	left: -160px;
+	*/
+	Left: -160px;
 	padding-top: 30px;
 	width: 160px;
 	height: 100%;
@@ -1124,7 +1127,7 @@ ul {
 				width: 46px;
 				height: 46px;
 				text-align: center;
-				border-radius: 3px;	
+				border-radius: 3px;
 			}
 
 			.section-contact-us .info-text {
