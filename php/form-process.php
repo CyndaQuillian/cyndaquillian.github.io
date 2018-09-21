@@ -24,8 +24,8 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "you@domaine.com";
-$Subject = "New Message Received"; // Subject
+$EmailTo = "quillanhong@ieee.org";
+$Subject = "New Message Received (WEBSITE)"; // Subject
 
 // prepare email body text
 $Body = "";
