@@ -1,6 +1,6 @@
 <?php
 
-$errorMSG = "";
+$errorMSG = "There was an error. Please try again later. You may also email me directly at quillanhong@ieee.org";
 
 // NAME
 if (empty($_POST["name"])) {
