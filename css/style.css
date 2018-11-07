@@ -91,7 +91,7 @@ ul {
 .section-about .available i,
 .section-about .available span,
 .theme-option h4,
-.section-contact-us input[type="button"] {
+.section-contact-us input[type="submit"] {
 	font-size: 16px;
 }
 
@@ -1100,15 +1100,13 @@ ul {
 			max-height: 300px;
 		}
 
-		.section-contact-us button[type="submit"] {
+		.section-contact-us input[type="submit"] {
 			margin-bottom: 5px;
 			width: 123px;
 			height: 45px;
 			border-bottom: none;
 			font-weight: bold;
 			transition: all .3s;
-            color:white;
-            background-color: #0487cc;
 		}
 
 	.section-contact-us .info-content {
