@@ -31,6 +31,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin: 0;
 }
 
+a:link {
+    color: #0487cc;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: navy;
+}
+
 a, a:hover, a:focus {
 	text-decoration: none;
 	color: inherit;
