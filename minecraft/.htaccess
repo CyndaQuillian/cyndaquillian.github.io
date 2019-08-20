@@ -1,0 +1,1 @@
+ AuthUserFile .htpasswd AuthGroupFile /dev/null AuthName "Minecraft" AuthType Basic require valid-user 
